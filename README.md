@@ -6,9 +6,11 @@
 
 *Déclaration des variables*
 
-t   reel
-u   reel
-v   reel
+t   reel    t <-> val de t
+
+u   reel    u <-> val de u
+
+v   reel    v <-> val de v
 
 Début
 
@@ -20,6 +22,8 @@ Début
 
     LIRE (u)
 
+v <- t+u
+    
     AFFICHAGE "Valeur de (v)"
 
 Fin
